@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Top heading with Employee Info -->
+        <TextView
+            android:id="@+id/tv_employee_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Employee Info"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:background="#388E3C"
+            android:gravity="center"
+            android:padding="10dp" />
+
+        <!-- Profile Picture -->
+        <ImageView
+            android:id="@+id/iv_profile_picture"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:src="@drawable/profile"
+            android:background="@drawable/circular_background"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Employee Info List -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Code Number -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Code Number:"
+                    android:textSize="20sp"
+                    android:textColor="#004C99"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="108"
+                    android:textSize="20sp"
+                    android:textColor="#FFD700"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="14dp"
+                android:background="#CCCCCC" />
+
+            <!-- Address -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Address:"
+                    android:textSize="20sp"
+                    android:textColor="#004C99"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="123 Street, City"
+                    android:textSize="20sp"
+                    android:textColor="#FFD700"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="14dp"
+                android:background="#CCCCCC" />
+
+            <!-- PAN Number -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="PAN Number:"
+                    android:textSize="20sp"
+                    android:textColor="#004C99"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ABCDE1234F"
+                    android:textSize="20sp"
+                    android:textColor="#FFD700"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="14dp"
+                android:background="#CCCCCC" />
+
+            <!-- Aadhaar Number -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Aadhaar Number:"
+                    android:textSize="20sp"
+                    android:textColor="#004C99"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1234 5678 9101"
+                    android:textSize="20sp"
+                    android:textColor="#FFD700"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="14dp"
+                android:background="#CCCCCC" />
+
+            <!-- U.A.N. Number -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="U.A.N. Number:"
+                    android:textSize="20sp"
+                    android:textColor="#004C99"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1234567890"
+                    android:textSize="20sp"
+                    android:textColor="#FFD700"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="14dp"
+                android:background="#CCCCCC" />
+
+            <!-- Blood Group -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Blood Group:"
+                    android:textSize="20sp"
+                    android:textColor="#004C99"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="B+"
+                    android:textSize="20sp"
+                    android:textColor="#FFD700"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="14dp"
+                android:background="#CCCCCC" />
+
+            <!-- Date of Birth -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Date of Birth:"
+                    android:textSize="20sp"
+                    android:textColor="#004C99"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="01 Jan 1990"
+                    android:textSize="20sp"
+                    android:textColor="#FFD700"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="14dp"
+                android:background="#CCCCCC" />
+
+            <!-- Date of Attendance -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Date of Attendance:"
+                    android:textSize="20sp"
+                    android:textColor="#004C99"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="15 Sept 2023"
+                    android:textSize="20sp"
+                    android:textColor="#FFD700"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="14dp"
+                android:background="#CCCCCC" />
+
+            <!-- Bank -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Bank:"
+                    android:textSize="20sp"
+                    android:textColor="#004C99"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="SBI"
+                    android:textSize="20sp"
+                    android:textColor="#FFD700"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="14dp"
+                android:background="#CCCCCC" />
+
+            <!-- Account Number -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Account Number:"
+                    android:textSize="20sp"
+                    android:textColor="#004C99"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1234567890"
+                    android:textSize="20sp"
+                    android:textColor="#FFD700"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="#CCCCCC" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

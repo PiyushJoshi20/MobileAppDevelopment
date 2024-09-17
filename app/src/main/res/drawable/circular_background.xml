@@ -1,0 +1,12 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!-- Solid background color for the circle -->
+    <solid android:color="#FFFFFF"/>
+
+    <!-- Stroke (border) with dark neon blue color -->
+    <stroke
+        android:width="2dp"
+        android:color="#004C99"/> <!-- Change from black (#000000) to dark neon blue (#004C99) -->
+
+</shape>
