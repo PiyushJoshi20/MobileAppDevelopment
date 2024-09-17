@@ -10,8 +10,7 @@
         android:orientation="vertical"
         android:padding="0dp">
 
-
-<!--         1st change-->
+<!--        1st change-->
         <!-- Dashboard title with navy blue background -->
         <TextView
             android:id="@+id/dashboard_title"
@@ -88,7 +87,7 @@
         android:layout_gravity="center"
         android:rowCount="5"
         android:paddingBottom="20dp"
-        android:background="#FFFFFF"> <!-- White background for the icons -->
+        android:background="#FFFFFF"> <!-- 2nd change - White background for the icons -->
 
         <!-- Icon 1: Employee Information -->
         <LinearLayout
